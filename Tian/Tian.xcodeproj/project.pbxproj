@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC04B73B18EFE228005C5B18 /* TZProjectViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC04B73A18EFE228005C5B18 /* TZProjectViewCell.m */; };
+		CC116A1B18F7B76500B279EB /* connect.png in Resources */ = {isa = PBXBuildFile; fileRef = CC116A1A18F7B76500B279EB /* connect.png */; };
+		CC307C5418F0B78B009BDA9E /* TZProjectSectionTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC307C5318F0B78B009BDA9E /* TZProjectSectionTitleView.m */; };
+		CC307C5818F0BA41009BDA9E /* TZProject.m in Sources */ = {isa = PBXBuildFile; fileRef = CC307C5718F0BA41009BDA9E /* TZProject.m */; };
+		CC307C5B18F0BAAE009BDA9E /* TZAppProject.m in Sources */ = {isa = PBXBuildFile; fileRef = CC307C5A18F0BAAE009BDA9E /* TZAppProject.m */; };
+		CC307C5E18F0BCE3009BDA9E /* TZHWProject.m in Sources */ = {isa = PBXBuildFile; fileRef = CC307C5D18F0BCE3009BDA9E /* TZHWProject.m */; };
+		CC307C6518F0BDC5009BDA9E /* TZProjectDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC307C6318F0BDC5009BDA9E /* TZProjectDetailViewController.m */; };
+		CC307C6618F0BDC5009BDA9E /* TZProjectDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC307C6418F0BDC5009BDA9E /* TZProjectDetailViewController.xib */; };
+		CC307C6918F0BDF2009BDA9E /* TZCore.m in Sources */ = {isa = PBXBuildFile; fileRef = CC307C6818F0BDF2009BDA9E /* TZCore.m */; };
+		CC307C6C18F0BE84009BDA9E /* projects.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC307C6B18F0BE84009BDA9E /* projects.plist */; };
+		CC307C6E18F0C9F6009BDA9E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC307C6D18F0C9F6009BDA9E /* StoreKit.framework */; };
+		CC307C7218F0E305009BDA9E /* TZImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC307C7018F0E305009BDA9E /* TZImageViewController.m */; };
+		CC307C7318F0E305009BDA9E /* TZImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC307C7118F0E305009BDA9E /* TZImageViewController.xib */; };
+		CC307C7618F0E750009BDA9E /* TZBlurTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = CC307C7518F0E750009BDA9E /* TZBlurTransitionAnimator.m */; };
+		CC6003CF18F7CB8A00F59166 /* iBeacon-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC6003CE18F7CB8A00F59166 /* iBeacon-5.jpg */; };
+		CC6003D118F7CC4B00F59166 /* BLECar-2.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6003D018F7CC4B00F59166 /* BLECar-2.png */; };
+		CC6003D318F7CC8B00F59166 /* BLECar-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC6003D218F7CC8B00F59166 /* BLECar-1.jpg */; };
+		CC645B7818EDE6EA0078BF48 /* TZIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC645B7618EDE6EA0078BF48 /* TZIntroViewController.m */; };
+		CC645B7918EDE6EA0078BF48 /* TZIntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC645B7718EDE6EA0078BF48 /* TZIntroViewController.xib */; };
+		CC7641F618F209AC008D0F0F /* TZBeliefViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7641F418F209AC008D0F0F /* TZBeliefViewController.m */; };
+		CC7641F718F209AC008D0F0F /* TZBeliefViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC7641F518F209AC008D0F0F /* TZBeliefViewController.xib */; };
+		CC7BEC0618EDE38B003B64CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7BEC0518EDE38B003B64CF /* Foundation.framework */; };
+		CC7BEC0818EDE38B003B64CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7BEC0718EDE38B003B64CF /* CoreGraphics.framework */; };
+		CC7BEC0A18EDE38B003B64CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7BEC0918EDE38B003B64CF /* UIKit.framework */; };
+		CC7BEC1018EDE38B003B64CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC7BEC0E18EDE38B003B64CF /* InfoPlist.strings */; };
+		CC7BEC1218EDE38B003B64CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7BEC1118EDE38B003B64CF /* main.m */; };
+		CC7BEC1618EDE38B003B64CF /* TZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7BEC1518EDE38B003B64CF /* TZAppDelegate.m */; };
+		CC7BEC1918EDE38B003B64CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7BEC1718EDE38B003B64CF /* Main.storyboard */; };
+		CC7BEC1E18EDE38B003B64CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7BEC1D18EDE38B003B64CF /* Images.xcassets */; };
+		CC91F89C18F11505008D02C2 /* iBeacon-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC91F89818F11505008D02C2 /* iBeacon-2.jpg */; };
+		CC91F89D18F11505008D02C2 /* iBeacon-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC91F89918F11505008D02C2 /* iBeacon-1.jpg */; };
+		CC91F89E18F11505008D02C2 /* iBeacon-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC91F89A18F11505008D02C2 /* iBeacon-3.jpg */; };
+		CC91F89F18F11505008D02C2 /* iBeacon-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC91F89B18F11505008D02C2 /* iBeacon-4.jpg */; };
+		CC91F8A718F1154F008D02C2 /* trees-1.png in Resources */ = {isa = PBXBuildFile; fileRef = CC91F8A618F1154F008D02C2 /* trees-1.png */; };
+		CC91F8A918F11558008D02C2 /* trees-2.png in Resources */ = {isa = PBXBuildFile; fileRef = CC91F8A818F11558008D02C2 /* trees-2.png */; };
+		CC91F8AB18F1155F008D02C2 /* trees-3.png in Resources */ = {isa = PBXBuildFile; fileRef = CC91F8AA18F1155F008D02C2 /* trees-3.png */; };
+		CCACD78918F520FA0005E43A /* TZAnimateOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CCACD78818F520FA0005E43A /* TZAnimateOperation.m */; };
+		CCB888E318F1DF460022D53C /* TZTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB888E118F1DF460022D53C /* TZTagViewController.m */; };
+		CCB888E418F1DF460022D53C /* TZTagViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB888E218F1DF460022D53C /* TZTagViewController.xib */; };
+		CCB888E718F1E78E0022D53C /* TZTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB888E618F1E78E0022D53C /* TZTagCell.m */; };
+		CCB888EA18F1ECEC0022D53C /* TZEduCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB888E918F1ECEC0022D53C /* TZEduCell.m */; };
+		CCB8D05118F74E82002A2CFB /* TZStage1Creator.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB8D05018F74E82002A2CFB /* TZStage1Creator.m */; };
+		CCB8D05418F75DEF002A2CFB /* TZStage2Creator.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB8D05318F75DEF002A2CFB /* TZStage2Creator.m */; };
+		CCB8D05718F7633A002A2CFB /* TZStage3Creator.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB8D05618F7633A002A2CFB /* TZStage3Creator.m */; };
+		CCB8D05A18F764A6002A2CFB /* TZStage4Creator.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB8D05918F764A6002A2CFB /* TZStage4Creator.m */; };
+		CCB8D05D18F76571002A2CFB /* TZStage5Creator.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB8D05C18F76571002A2CFB /* TZStage5Creator.m */; };
+		CCB8D06018F76855002A2CFB /* TZStage6Creator.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB8D05F18F76855002A2CFB /* TZStage6Creator.m */; };
+		CCB8D06318F76B1E002A2CFB /* TZStage7Creator.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB8D06218F76B1E002A2CFB /* TZStage7Creator.m */; };
+		CCB8D06518F79639002A2CFB /* toy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB8D06418F79639002A2CFB /* toy.jpg */; };
+		CCB8D06818F79F08002A2CFB /* person.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB8D06718F79F08002A2CFB /* person.jpg */; };
+		CCB8D06A18F7A1D2002A2CFB /* story.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB8D06918F7A1D2002A2CFB /* story.jpg */; };
+		CCB8D06F18F7AD7A002A2CFB /* README in Resources */ = {isa = PBXBuildFile; fileRef = CCB8D06E18F7AD7A002A2CFB /* README */; };
+		CCC28FC618F7DA5600796FBF /* end.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC28FC518F7DA5600796FBF /* end.png */; };
+		CCEDB57B18EE2BDD00DFAC07 /* UIImage+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEDB57A18EE2BDD00DFAC07 /* UIImage+Utilities.m */; };
+		CCEDB57D18EE2BFD00DFAC07 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEDB57C18EE2BFD00DFAC07 /* Accelerate.framework */; };
+		CCEDB57F18EE2C0300DFAC07 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEDB57E18EE2C0300DFAC07 /* QuartzCore.framework */; };
+		CCEE986818EF60EA0031EB62 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEDB58318EE43D900DFAC07 /* CoreText.framework */; };
+		CCEE986C18EF65980031EB62 /* TZProjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEE986A18EF65980031EB62 /* TZProjectsViewController.m */; };
+		CCEE986D18EF65980031EB62 /* TZProjectsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCEE986B18EF65980031EB62 /* TZProjectsViewController.xib */; };
+		CCEE987018EF69010031EB62 /* TZContentManagementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEE986F18EF69010031EB62 /* TZContentManagementViewController.m */; };
+		CCEE987518EF7CF00031EB62 /* TZProjectIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEE987418EF7CF00031EB62 /* TZProjectIconView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC04B73918EFE228005C5B18 /* TZProjectViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZProjectViewCell.h; sourceTree = "<group>"; };
+		CC04B73A18EFE228005C5B18 /* TZProjectViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZProjectViewCell.m; sourceTree = "<group>"; };
+		CC116A1A18F7B76500B279EB /* connect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connect.png; sourceTree = "<group>"; };
+		CC307C5218F0B78B009BDA9E /* TZProjectSectionTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZProjectSectionTitleView.h; sourceTree = "<group>"; };
+		CC307C5318F0B78B009BDA9E /* TZProjectSectionTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZProjectSectionTitleView.m; sourceTree = "<group>"; };
+		CC307C5618F0BA41009BDA9E /* TZProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZProject.h; sourceTree = "<group>"; };
+		CC307C5718F0BA41009BDA9E /* TZProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZProject.m; sourceTree = "<group>"; };
+		CC307C5918F0BAAE009BDA9E /* TZAppProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAppProject.h; sourceTree = "<group>"; };
+		CC307C5A18F0BAAE009BDA9E /* TZAppProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAppProject.m; sourceTree = "<group>"; };
+		CC307C5C18F0BCE3009BDA9E /* TZHWProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZHWProject.h; sourceTree = "<group>"; };
+		CC307C5D18F0BCE3009BDA9E /* TZHWProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZHWProject.m; sourceTree = "<group>"; };
+		CC307C6218F0BDC5009BDA9E /* TZProjectDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZProjectDetailViewController.h; sourceTree = "<group>"; };
+		CC307C6318F0BDC5009BDA9E /* TZProjectDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZProjectDetailViewController.m; sourceTree = "<group>"; };
+		CC307C6418F0BDC5009BDA9E /* TZProjectDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TZProjectDetailViewController.xib; sourceTree = "<group>"; };
+		CC307C6718F0BDF2009BDA9E /* TZCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZCore.h; sourceTree = "<group>"; };
+		CC307C6818F0BDF2009BDA9E /* TZCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZCore.m; sourceTree = "<group>"; };
+		CC307C6B18F0BE84009BDA9E /* projects.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = projects.plist; sourceTree = "<group>"; };
+		CC307C6D18F0C9F6009BDA9E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CC307C6F18F0E305009BDA9E /* TZImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageViewController.h; sourceTree = "<group>"; };
+		CC307C7018F0E305009BDA9E /* TZImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageViewController.m; sourceTree = "<group>"; };
+		CC307C7118F0E305009BDA9E /* TZImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TZImageViewController.xib; sourceTree = "<group>"; };
+		CC307C7418F0E750009BDA9E /* TZBlurTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZBlurTransitionAnimator.h; sourceTree = "<group>"; };
+		CC307C7518F0E750009BDA9E /* TZBlurTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZBlurTransitionAnimator.m; sourceTree = "<group>"; };
+		CC6003CE18F7CB8A00F59166 /* iBeacon-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iBeacon-5.jpg"; sourceTree = "<group>"; };
+		CC6003D018F7CC4B00F59166 /* BLECar-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BLECar-2.png"; sourceTree = "<group>"; };
+		CC6003D218F7CC8B00F59166 /* BLECar-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BLECar-1.jpg"; sourceTree = "<group>"; };
+		CC645B7518EDE6EA0078BF48 /* TZIntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZIntroViewController.h; sourceTree = "<group>"; };
+		CC645B7618EDE6EA0078BF48 /* TZIntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZIntroViewController.m; sourceTree = "<group>"; };
+		CC645B7718EDE6EA0078BF48 /* TZIntroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TZIntroViewController.xib; sourceTree = "<group>"; };
+		CC7641F318F209AC008D0F0F /* TZBeliefViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZBeliefViewController.h; sourceTree = "<group>"; };
+		CC7641F418F209AC008D0F0F /* TZBeliefViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZBeliefViewController.m; sourceTree = "<group>"; };
+		CC7641F518F209AC008D0F0F /* TZBeliefViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TZBeliefViewController.xib; sourceTree = "<group>"; };
+		CC7BEC0218EDE38B003B64CF /* Tian Z..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tian Z..app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7BEC0518EDE38B003B64CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC7BEC0718EDE38B003B64CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC7BEC0918EDE38B003B64CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC7BEC0D18EDE38B003B64CF /* Tian-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tian-Info.plist"; sourceTree = "<group>"; };
+		CC7BEC0F18EDE38B003B64CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC7BEC1118EDE38B003B64CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC7BEC1318EDE38B003B64CF /* Tian-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tian-Prefix.pch"; sourceTree = "<group>"; };
+		CC7BEC1418EDE38B003B64CF /* TZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZAppDelegate.h; sourceTree = "<group>"; };
+		CC7BEC1518EDE38B003B64CF /* TZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZAppDelegate.m; sourceTree = "<group>"; };
+		CC7BEC1818EDE38B003B64CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC7BEC1D18EDE38B003B64CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC7BEC2418EDE38B003B64CF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CC91F89818F11505008D02C2 /* iBeacon-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iBeacon-2.jpg"; sourceTree = "<group>"; };
+		CC91F89918F11505008D02C2 /* iBeacon-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iBeacon-1.jpg"; sourceTree = "<group>"; };
+		CC91F89A18F11505008D02C2 /* iBeacon-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iBeacon-3.jpg"; sourceTree = "<group>"; };
+		CC91F89B18F11505008D02C2 /* iBeacon-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iBeacon-4.jpg"; sourceTree = "<group>"; };
+		CC91F8A618F1154F008D02C2 /* trees-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trees-1.png"; sourceTree = "<group>"; };
+		CC91F8A818F11558008D02C2 /* trees-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trees-2.png"; sourceTree = "<group>"; };
+		CC91F8AA18F1155F008D02C2 /* trees-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trees-3.png"; sourceTree = "<group>"; };
+		CCACD78718F520FA0005E43A /* TZAnimateOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAnimateOperation.h; sourceTree = "<group>"; };
+		CCACD78818F520FA0005E43A /* TZAnimateOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAnimateOperation.m; sourceTree = "<group>"; };
+		CCB888E018F1DF460022D53C /* TZTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTagViewController.h; sourceTree = "<group>"; };
+		CCB888E118F1DF460022D53C /* TZTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTagViewController.m; sourceTree = "<group>"; };
+		CCB888E218F1DF460022D53C /* TZTagViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TZTagViewController.xib; sourceTree = "<group>"; };
+		CCB888E518F1E78E0022D53C /* TZTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTagCell.h; sourceTree = "<group>"; };
+		CCB888E618F1E78E0022D53C /* TZTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTagCell.m; sourceTree = "<group>"; };
+		CCB888E818F1ECEC0022D53C /* TZEduCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZEduCell.h; sourceTree = "<group>"; };
+		CCB888E918F1ECEC0022D53C /* TZEduCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZEduCell.m; sourceTree = "<group>"; };
+		CCB8D04F18F74E82002A2CFB /* TZStage1Creator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZStage1Creator.h; sourceTree = "<group>"; };
+		CCB8D05018F74E82002A2CFB /* TZStage1Creator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZStage1Creator.m; sourceTree = "<group>"; };
+		CCB8D05218F75DEF002A2CFB /* TZStage2Creator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZStage2Creator.h; sourceTree = "<group>"; };
+		CCB8D05318F75DEF002A2CFB /* TZStage2Creator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZStage2Creator.m; sourceTree = "<group>"; };
+		CCB8D05518F7633A002A2CFB /* TZStage3Creator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZStage3Creator.h; sourceTree = "<group>"; };
+		CCB8D05618F7633A002A2CFB /* TZStage3Creator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZStage3Creator.m; sourceTree = "<group>"; };
+		CCB8D05818F764A6002A2CFB /* TZStage4Creator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZStage4Creator.h; sourceTree = "<group>"; };
+		CCB8D05918F764A6002A2CFB /* TZStage4Creator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZStage4Creator.m; sourceTree = "<group>"; };
+		CCB8D05B18F76571002A2CFB /* TZStage5Creator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZStage5Creator.h; sourceTree = "<group>"; };
+		CCB8D05C18F76571002A2CFB /* TZStage5Creator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZStage5Creator.m; sourceTree = "<group>"; };
+		CCB8D05E18F76855002A2CFB /* TZStage6Creator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZStage6Creator.h; sourceTree = "<group>"; };
+		CCB8D05F18F76855002A2CFB /* TZStage6Creator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZStage6Creator.m; sourceTree = "<group>"; };
+		CCB8D06118F76B1E002A2CFB /* TZStage7Creator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZStage7Creator.h; sourceTree = "<group>"; };
+		CCB8D06218F76B1E002A2CFB /* TZStage7Creator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZStage7Creator.m; sourceTree = "<group>"; };
+		CCB8D06418F79639002A2CFB /* toy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toy.jpg; sourceTree = "<group>"; };
+		CCB8D06718F79F08002A2CFB /* person.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person.jpg; sourceTree = "<group>"; };
+		CCB8D06918F7A1D2002A2CFB /* story.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = story.jpg; sourceTree = "<group>"; };
+		CCB8D06E18F7AD7A002A2CFB /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = Tian/README; sourceTree = "<group>"; };
+		CCC28FC518F7DA5600796FBF /* end.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = end.png; sourceTree = "<group>"; };
+		CCEDB57918EE2BDD00DFAC07 /* UIImage+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utilities.h"; sourceTree = "<group>"; };
+		CCEDB57A18EE2BDD00DFAC07 /* UIImage+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utilities.m"; sourceTree = "<group>"; };
+		CCEDB57C18EE2BFD00DFAC07 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		CCEDB57E18EE2C0300DFAC07 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CCEDB58318EE43D900DFAC07 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		CCEE986918EF65980031EB62 /* TZProjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZProjectsViewController.h; sourceTree = "<group>"; };
+		CCEE986A18EF65980031EB62 /* TZProjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZProjectsViewController.m; sourceTree = "<group>"; };
+		CCEE986B18EF65980031EB62 /* TZProjectsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TZProjectsViewController.xib; sourceTree = "<group>"; };
+		CCEE986E18EF69010031EB62 /* TZContentManagementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZContentManagementViewController.h; sourceTree = "<group>"; };
+		CCEE986F18EF69010031EB62 /* TZContentManagementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZContentManagementViewController.m; sourceTree = "<group>"; };
+		CCEE987318EF7CF00031EB62 /* TZProjectIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZProjectIconView.h; sourceTree = "<group>"; };
+		CCEE987418EF7CF00031EB62 /* TZProjectIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZProjectIconView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC7BEBFF18EDE38B003B64CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC307C6E18F0C9F6009BDA9E /* StoreKit.framework in Frameworks */,
+				CCEE986818EF60EA0031EB62 /* CoreText.framework in Frameworks */,
+				CCEDB57D18EE2BFD00DFAC07 /* Accelerate.framework in Frameworks */,
+				CC7BEC0818EDE38B003B64CF /* CoreGraphics.framework in Frameworks */,
+				CC7BEC0618EDE38B003B64CF /* Foundation.framework in Frameworks */,
+				CCEDB57F18EE2C0300DFAC07 /* QuartzCore.framework in Frameworks */,
+				CC7BEC0A18EDE38B003B64CF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC307C5518F0BA32009BDA9E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CC307C5618F0BA41009BDA9E /* TZProject.h */,
+				CC307C5718F0BA41009BDA9E /* TZProject.m */,
+				CC307C5918F0BAAE009BDA9E /* TZAppProject.h */,
+				CC307C5A18F0BAAE009BDA9E /* TZAppProject.m */,
+				CC307C5C18F0BCE3009BDA9E /* TZHWProject.h */,
+				CC307C5D18F0BCE3009BDA9E /* TZHWProject.m */,
+				CCACD78718F520FA0005E43A /* TZAnimateOperation.h */,
+				CCACD78818F520FA0005E43A /* TZAnimateOperation.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CC307C6A18F0BDF7009BDA9E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CC307C6718F0BDF2009BDA9E /* TZCore.h */,
+				CC307C6818F0BDF2009BDA9E /* TZCore.m */,
+				CC307C6B18F0BE84009BDA9E /* projects.plist */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		CC7BEBF918EDE38B003B64CF = {
+			isa = PBXGroup;
+			children = (
+				CCB8D06E18F7AD7A002A2CFB /* README */,
+				CC7BEC0B18EDE38B003B64CF /* Tian */,
+				CC7BEC0418EDE38B003B64CF /* Frameworks */,
+				CC7BEC0318EDE38B003B64CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC7BEC0318EDE38B003B64CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC7BEC0218EDE38B003B64CF /* Tian Z..app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC7BEC0418EDE38B003B64CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC307C6D18F0C9F6009BDA9E /* StoreKit.framework */,
+				CCEDB58318EE43D900DFAC07 /* CoreText.framework */,
+				CCEDB57E18EE2C0300DFAC07 /* QuartzCore.framework */,
+				CCEDB57C18EE2BFD00DFAC07 /* Accelerate.framework */,
+				CC7BEC0518EDE38B003B64CF /* Foundation.framework */,
+				CC7BEC0718EDE38B003B64CF /* CoreGraphics.framework */,
+				CC7BEC0918EDE38B003B64CF /* UIKit.framework */,
+				CC7BEC2418EDE38B003B64CF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC7BEC0B18EDE38B003B64CF /* Tian */ = {
+			isa = PBXGroup;
+			children = (
+				CCEDB57818EE2BCA00DFAC07 /* Utilities */,
+				CC7BEC1418EDE38B003B64CF /* TZAppDelegate.h */,
+				CC7BEC1518EDE38B003B64CF /* TZAppDelegate.m */,
+				CC7BEC1718EDE38B003B64CF /* Main.storyboard */,
+				CC307C6A18F0BDF7009BDA9E /* Core */,
+				CC307C5518F0BA32009BDA9E /* Models */,
+				CCEE987118EF7CCD0031EB62 /* Controllers */,
+				CCEE987218EF7CD50031EB62 /* Views */,
+				CCB8D06618F7963D002A2CFB /* Pictures */,
+				CC7BEC1D18EDE38B003B64CF /* Images.xcassets */,
+				CC7BEC0C18EDE38B003B64CF /* Supporting Files */,
+			);
+			path = Tian;
+			sourceTree = "<group>";
+		};
+		CC7BEC0C18EDE38B003B64CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC7BEC0D18EDE38B003B64CF /* Tian-Info.plist */,
+				CC7BEC0E18EDE38B003B64CF /* InfoPlist.strings */,
+				CC7BEC1118EDE38B003B64CF /* main.m */,
+				CC7BEC1318EDE38B003B64CF /* Tian-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC91F89718F114F5008D02C2 /* Project Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				CC91F8A618F1154F008D02C2 /* trees-1.png */,
+				CC91F8A818F11558008D02C2 /* trees-2.png */,
+				CC91F8AA18F1155F008D02C2 /* trees-3.png */,
+				CC91F89918F11505008D02C2 /* iBeacon-1.jpg */,
+				CC91F89818F11505008D02C2 /* iBeacon-2.jpg */,
+				CC91F89A18F11505008D02C2 /* iBeacon-3.jpg */,
+				CC91F89B18F11505008D02C2 /* iBeacon-4.jpg */,
+				CC6003CE18F7CB8A00F59166 /* iBeacon-5.jpg */,
+				CC6003D218F7CC8B00F59166 /* BLECar-1.jpg */,
+				CC6003D018F7CC4B00F59166 /* BLECar-2.png */,
+			);
+			name = "Project Pictures";
+			sourceTree = "<group>";
+		};
+		CCB8D04E18F74DA1002A2CFB /* BeliefAnimationGroup */ = {
+			isa = PBXGroup;
+			children = (
+				CCB8D04F18F74E82002A2CFB /* TZStage1Creator.h */,
+				CCB8D05018F74E82002A2CFB /* TZStage1Creator.m */,
+				CCB8D05218F75DEF002A2CFB /* TZStage2Creator.h */,
+				CCB8D05318F75DEF002A2CFB /* TZStage2Creator.m */,
+				CCB8D05518F7633A002A2CFB /* TZStage3Creator.h */,
+				CCB8D05618F7633A002A2CFB /* TZStage3Creator.m */,
+				CCB8D05818F764A6002A2CFB /* TZStage4Creator.h */,
+				CCB8D05918F764A6002A2CFB /* TZStage4Creator.m */,
+				CCB8D05B18F76571002A2CFB /* TZStage5Creator.h */,
+				CCB8D05C18F76571002A2CFB /* TZStage5Creator.m */,
+				CCB8D05E18F76855002A2CFB /* TZStage6Creator.h */,
+				CCB8D05F18F76855002A2CFB /* TZStage6Creator.m */,
+				CCB8D06118F76B1E002A2CFB /* TZStage7Creator.h */,
+				CCB8D06218F76B1E002A2CFB /* TZStage7Creator.m */,
+			);
+			name = BeliefAnimationGroup;
+			sourceTree = "<group>";
+		};
+		CCB8D06618F7963D002A2CFB /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				CC116A1A18F7B76500B279EB /* connect.png */,
+				CCC28FC518F7DA5600796FBF /* end.png */,
+				CCB8D06418F79639002A2CFB /* toy.jpg */,
+				CCB8D06918F7A1D2002A2CFB /* story.jpg */,
+				CCB8D06718F79F08002A2CFB /* person.jpg */,
+				CC91F89718F114F5008D02C2 /* Project Pictures */,
+			);
+			name = Pictures;
+			sourceTree = "<group>";
+		};
+		CCEDB57818EE2BCA00DFAC07 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CCEDB57918EE2BDD00DFAC07 /* UIImage+Utilities.h */,
+				CCEDB57A18EE2BDD00DFAC07 /* UIImage+Utilities.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		CCEE987118EF7CCD0031EB62 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCB8D04E18F74DA1002A2CFB /* BeliefAnimationGroup */,
+				CCEE986E18EF69010031EB62 /* TZContentManagementViewController.h */,
+				CCEE986F18EF69010031EB62 /* TZContentManagementViewController.m */,
+				CC645B7518EDE6EA0078BF48 /* TZIntroViewController.h */,
+				CC645B7618EDE6EA0078BF48 /* TZIntroViewController.m */,
+				CC645B7718EDE6EA0078BF48 /* TZIntroViewController.xib */,
+				CCEE986918EF65980031EB62 /* TZProjectsViewController.h */,
+				CCEE986A18EF65980031EB62 /* TZProjectsViewController.m */,
+				CCEE986B18EF65980031EB62 /* TZProjectsViewController.xib */,
+				CC307C6218F0BDC5009BDA9E /* TZProjectDetailViewController.h */,
+				CC307C6318F0BDC5009BDA9E /* TZProjectDetailViewController.m */,
+				CC307C6418F0BDC5009BDA9E /* TZProjectDetailViewController.xib */,
+				CC307C6F18F0E305009BDA9E /* TZImageViewController.h */,
+				CC307C7018F0E305009BDA9E /* TZImageViewController.m */,
+				CC307C7118F0E305009BDA9E /* TZImageViewController.xib */,
+				CCB888E018F1DF460022D53C /* TZTagViewController.h */,
+				CCB888E118F1DF460022D53C /* TZTagViewController.m */,
+				CCB888E218F1DF460022D53C /* TZTagViewController.xib */,
+				CC7641F318F209AC008D0F0F /* TZBeliefViewController.h */,
+				CC7641F418F209AC008D0F0F /* TZBeliefViewController.m */,
+				CC7641F518F209AC008D0F0F /* TZBeliefViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CCEE987218EF7CD50031EB62 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCEE987318EF7CF00031EB62 /* TZProjectIconView.h */,
+				CCEE987418EF7CF00031EB62 /* TZProjectIconView.m */,
+				CC04B73918EFE228005C5B18 /* TZProjectViewCell.h */,
+				CC04B73A18EFE228005C5B18 /* TZProjectViewCell.m */,
+				CC307C5218F0B78B009BDA9E /* TZProjectSectionTitleView.h */,
+				CC307C5318F0B78B009BDA9E /* TZProjectSectionTitleView.m */,
+				CC307C7418F0E750009BDA9E /* TZBlurTransitionAnimator.h */,
+				CC307C7518F0E750009BDA9E /* TZBlurTransitionAnimator.m */,
+				CCB888E518F1E78E0022D53C /* TZTagCell.h */,
+				CCB888E618F1E78E0022D53C /* TZTagCell.m */,
+				CCB888E818F1ECEC0022D53C /* TZEduCell.h */,
+				CCB888E918F1ECEC0022D53C /* TZEduCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC7BEC0118EDE38B003B64CF /* Tian Z. */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7BEC3418EDE38C003B64CF /* Build configuration list for PBXNativeTarget "Tian Z." */;
+			buildPhases = (
+				CC7BEBFE18EDE38B003B64CF /* Sources */,
+				CC7BEBFF18EDE38B003B64CF /* Frameworks */,
+				CC7BEC0018EDE38B003B64CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tian Z.";
+			productName = Tian;
+			productReference = CC7BEC0218EDE38B003B64CF /* Tian Z..app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC7BEBFA18EDE38B003B64CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Oltica;
+			};
+			buildConfigurationList = CC7BEBFD18EDE38B003B64CF /* Build configuration list for PBXProject "Tian" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC7BEBF918EDE38B003B64CF;
+			productRefGroup = CC7BEC0318EDE38B003B64CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC7BEC0118EDE38B003B64CF /* Tian Z. */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC7BEC0018EDE38B003B64CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB8D06518F79639002A2CFB /* toy.jpg in Resources */,
+				CC91F8A718F1154F008D02C2 /* trees-1.png in Resources */,
+				CCB888E418F1DF460022D53C /* TZTagViewController.xib in Resources */,
+				CC116A1B18F7B76500B279EB /* connect.png in Resources */,
+				CC91F89C18F11505008D02C2 /* iBeacon-2.jpg in Resources */,
+				CC6003D318F7CC8B00F59166 /* BLECar-1.jpg in Resources */,
+				CC91F89E18F11505008D02C2 /* iBeacon-3.jpg in Resources */,
+				CCC28FC618F7DA5600796FBF /* end.png in Resources */,
+				CC91F89D18F11505008D02C2 /* iBeacon-1.jpg in Resources */,
+				CCB8D06F18F7AD7A002A2CFB /* README in Resources */,
+				CCB8D06818F79F08002A2CFB /* person.jpg in Resources */,
+				CC7BEC1E18EDE38B003B64CF /* Images.xcassets in Resources */,
+				CC307C6C18F0BE84009BDA9E /* projects.plist in Resources */,
+				CC91F8AB18F1155F008D02C2 /* trees-3.png in Resources */,
+				CC7641F718F209AC008D0F0F /* TZBeliefViewController.xib in Resources */,
+				CC307C7318F0E305009BDA9E /* TZImageViewController.xib in Resources */,
+				CC91F89F18F11505008D02C2 /* iBeacon-4.jpg in Resources */,
+				CC7BEC1018EDE38B003B64CF /* InfoPlist.strings in Resources */,
+				CC7BEC1918EDE38B003B64CF /* Main.storyboard in Resources */,
+				CC91F8A918F11558008D02C2 /* trees-2.png in Resources */,
+				CC6003CF18F7CB8A00F59166 /* iBeacon-5.jpg in Resources */,
+				CCEE986D18EF65980031EB62 /* TZProjectsViewController.xib in Resources */,
+				CCB8D06A18F7A1D2002A2CFB /* story.jpg in Resources */,
+				CC645B7918EDE6EA0078BF48 /* TZIntroViewController.xib in Resources */,
+				CC6003D118F7CC4B00F59166 /* BLECar-2.png in Resources */,
+				CC307C6618F0BDC5009BDA9E /* TZProjectDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC7BEBFE18EDE38B003B64CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC307C5E18F0BCE3009BDA9E /* TZHWProject.m in Sources */,
+				CCB8D06318F76B1E002A2CFB /* TZStage7Creator.m in Sources */,
+				CC7BEC1618EDE38B003B64CF /* TZAppDelegate.m in Sources */,
+				CCEE986C18EF65980031EB62 /* TZProjectsViewController.m in Sources */,
+				CCB8D05118F74E82002A2CFB /* TZStage1Creator.m in Sources */,
+				CC7641F618F209AC008D0F0F /* TZBeliefViewController.m in Sources */,
+				CC307C5418F0B78B009BDA9E /* TZProjectSectionTitleView.m in Sources */,
+				CC7BEC1218EDE38B003B64CF /* main.m in Sources */,
+				CCACD78918F520FA0005E43A /* TZAnimateOperation.m in Sources */,
+				CCEDB57B18EE2BDD00DFAC07 /* UIImage+Utilities.m in Sources */,
+				CCB8D05718F7633A002A2CFB /* TZStage3Creator.m in Sources */,
+				CCB888E718F1E78E0022D53C /* TZTagCell.m in Sources */,
+				CCB8D05D18F76571002A2CFB /* TZStage5Creator.m in Sources */,
+				CCEE987518EF7CF00031EB62 /* TZProjectIconView.m in Sources */,
+				CC645B7818EDE6EA0078BF48 /* TZIntroViewController.m in Sources */,
+				CCB888EA18F1ECEC0022D53C /* TZEduCell.m in Sources */,
+				CCB888E318F1DF460022D53C /* TZTagViewController.m in Sources */,
+				CC307C5818F0BA41009BDA9E /* TZProject.m in Sources */,
+				CC04B73B18EFE228005C5B18 /* TZProjectViewCell.m in Sources */,
+				CC307C6918F0BDF2009BDA9E /* TZCore.m in Sources */,
+				CCB8D05A18F764A6002A2CFB /* TZStage4Creator.m in Sources */,
+				CCEE987018EF69010031EB62 /* TZContentManagementViewController.m in Sources */,
+				CCB8D06018F76855002A2CFB /* TZStage6Creator.m in Sources */,
+				CCB8D05418F75DEF002A2CFB /* TZStage2Creator.m in Sources */,
+				CC307C5B18F0BAAE009BDA9E /* TZAppProject.m in Sources */,
+				CC307C7218F0E305009BDA9E /* TZImageViewController.m in Sources */,
+				CC307C7618F0E750009BDA9E /* TZBlurTransitionAnimator.m in Sources */,
+				CC307C6518F0BDC5009BDA9E /* TZProjectDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC7BEC0E18EDE38B003B64CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC7BEC0F18EDE38B003B64CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CC7BEC1718EDE38B003B64CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC7BEC1818EDE38B003B64CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC7BEC3218EDE38C003B64CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC7BEC3318EDE38C003B64CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC7BEC3518EDE38C003B64CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Reveal.app/Contents/SharedSupport/iOS-Libraries",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tian/Tian-Prefix.pch";
+				INFOPLIST_FILE = "Tian/Tian-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CC7BEC3618EDE38C003B64CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Reveal.app/Contents/SharedSupport/iOS-Libraries",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tian/Tian-Prefix.pch";
+				INFOPLIST_FILE = "Tian/Tian-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC7BEBFD18EDE38B003B64CF /* Build configuration list for PBXProject "Tian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7BEC3218EDE38C003B64CF /* Debug */,
+				CC7BEC3318EDE38C003B64CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7BEC3418EDE38C003B64CF /* Build configuration list for PBXNativeTarget "Tian Z." */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7BEC3518EDE38C003B64CF /* Debug */,
+				CC7BEC3618EDE38C003B64CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC7BEBFA18EDE38B003B64CF /* Project object */;
+}

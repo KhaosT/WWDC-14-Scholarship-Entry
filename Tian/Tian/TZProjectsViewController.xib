@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13D33" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TZProjectsViewController">
+            <connections>
+                <outlet property="introText" destination="3nQ-3N-A5o" id="hsa-Mq-TAf"/>
+                <outlet property="projectsCollectionView" destination="9ZZ-jH-FdM" id="FkH-h6-6ag"/>
+                <outlet property="projectsCollectionViewLayout" destination="4C9-ph-diU" id="RaO-F2-qf6"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="9ZZ-jH-FdM">
+                    <rect key="frame" x="0.0" y="70" width="320" height="498"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="4C9-ph-diU">
+                        <size key="itemSize" width="60" height="80"/>
+                        <size key="headerReferenceSize" width="320" height="44"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="15" minY="10" maxX="15" maxY="10"/>
+                    </collectionViewFlowLayout>
+                    <cells/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="M4M-qs-MUQ"/>
+                        <outlet property="delegate" destination="-1" id="gSP-hD-omE"/>
+                    </connections>
+                </collectionView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Here are some projects I'd like to show you" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="270" translatesAutoresizingMaskIntoConstraints="NO" id="3nQ-3N-A5o">
+                    <rect key="frame" x="25" y="209" width="270" height="149"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="42"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="3nQ-3N-A5o" secondAttribute="centerY" constant="0.5" id="7dD-SO-QAB"/>
+                <constraint firstAttribute="bottom" secondItem="9ZZ-jH-FdM" secondAttribute="bottom" id="9tm-0a-ikZ"/>
+                <constraint firstAttribute="centerX" secondItem="3nQ-3N-A5o" secondAttribute="centerX" id="Nbx-XS-8Pw"/>
+                <constraint firstAttribute="trailing" secondItem="9ZZ-jH-FdM" secondAttribute="trailing" id="fUJ-eu-65I"/>
+                <constraint firstItem="9ZZ-jH-FdM" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="70" id="nrD-8P-odk"/>
+                <constraint firstItem="9ZZ-jH-FdM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="qGb-Hx-mFK"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

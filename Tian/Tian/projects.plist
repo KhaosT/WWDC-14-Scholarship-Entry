@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>class</key>
+		<string>TZAppProject</string>
+		<key>kind</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Soaring</string>
+		<key>icon</key>
+		<string>Soaring</string>
+		<key>appID</key>
+		<integer>479542119</integer>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>TZAppProject</string>
+		<key>kind</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Currency</string>
+		<key>icon</key>
+		<string>Currency</string>
+		<key>appID</key>
+		<integer>621204854</integer>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>TZAppProject</string>
+		<key>kind</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Trees</string>
+		<key>icon</key>
+		<string>Trees</string>
+		<key>detailDescription</key>
+		<string>Trees is a project initied by Santa Clara Univeristy Department of Environmental Studies and Sciences to track trees in area around users.</string>
+		<key>images</key>
+		<array>
+			<string>trees-1</string>
+			<string>trees-2</string>
+			<string>trees-3</string>
+		</array>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>TZHWProject</string>
+		<key>kind</key>
+		<integer>1</integer>
+		<key>name</key>
+		<string>iBeacon</string>
+		<key>icon</key>
+		<string>iBeacon</string>
+		<key>detailDescription</key>
+		<string>iBeacon is a side project for Project Narcissus (https://github.com/KhaosT/Narcissus). CC2541 is used to power the iBeacon. In order to resolve the issue for field setup for iBeacon, I created an app called Beacon Configurator. Design reference and souce code can be find on GitHub (https://github.com/KhaosT/iBeacon).</string>
+		<key>images</key>
+		<array>
+			<string>iBeacon-1.jpg</string>
+			<string>iBeacon-2.jpg</string>
+			<string>iBeacon-3.jpg</string>
+			<string>iBeacon-4.jpg</string>
+			<string>iBeacon-5.jpg</string>
+		</array>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>TZHWProject</string>
+		<key>kind</key>
+		<integer>1</integer>
+		<key>name</key>
+		<string>BLE Car</string>
+		<key>icon</key>
+		<string>BLECar</string>
+		<key>detailDescription</key>
+		<string>BLE Car is designed to use iDevices to controll car remotely. It&apos;s powered by Arduino with a BLE Chip. The iOS Client used CoreBluetooth to support communication between the car and iDevice. Design reference and code can be find on GitHub (https://github.com/KhaosT/BLE_Car)</string>
+		<key>images</key>
+		<array>
+			<string>BLECar-1.jpg</string>
+			<string>BLECar-2.png</string>
+		</array>
+	</dict>
+</array>
+</plist>
